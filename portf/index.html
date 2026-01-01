@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Abhiram Maddukuri | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Sai Abhiram Maddukuri, a Computer Science undergraduate specializing in AI, Machine Learning, and Full Stack Development.">
+    <meta name="keywords"
+        content="Sai Abhiram Maddukuri, Portfolio, AI, Machine Learning, Web Development, Full Stack, Computer Science">
+    <meta name="author" content="Sai Abhiram Maddukuri">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://abhirammaddukuri.github.io/">
+    <meta property="og:title" content="Sai Abhiram Maddukuri | Portfolio">
+    <meta property="og:description"
+        content="Dedicated Computer Science undergraduate specializing in Artificial Intelligence and Full Stack Development.">
+    <meta property="og:image" content="about-me.jpeg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://abhirammaddukuri.github.io/">
+    <meta property="twitter:title" content="Sai Abhiram Maddukuri | Portfolio">
+    <meta property="twitter:description"
+        content="Dedicated Computer Science undergraduate specializing in Artificial Intelligence and Full Stack Development.">
+    <meta property="twitter:image" content="about-me.jpeg">
+
+    <link rel="icon" type="image/jpeg" href="about-me.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Removed static background shapes to use canvas instead, or keep as fallback/layer -->
+    <div class="background-shapes" style="display: none;">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <nav class="glass-nav">
+        <div class="logo">Sai Abhiram</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content glass-card">
+            <h1>Hello, I'm <span class="highlight">Sai Abhiram Maddukuri</span></h1>
+            <p class="subtitle"><span class="typing-text"></span></p>
+            <p class="description">Dedicated Computer Science undergraduate specializing in Artificial Intelligence,
+                known for meticulous attention to detail and a results-driven approach.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn primary-btn">Contact Me</a>
+                <a href="#projects" class="btn secondary-btn">View Work</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="profile-circle glass-card">
+                <img src="about-me.jpeg" alt="Sai Abhiram" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container glass-card">
+            <p>I am a dedicated Computer Science undergraduate specializing in Artificial Intelligence. I am skilled in
+                designing, developing, and deploying scalable software solutions. My expertise spans full-stack web
+                development, machine learning, and creating data-driven applications.</p>
+            <p>I have a proven ability to engage cross-functional teams to solve business challenges while actively
+                seeking innovative technologies to enhance business processes. I am committed to leveraging technical
+                expertise and a growth mindset to effect meaningful change.</p>
+
+            <div class="education-timeline">
+                <h3>Education</h3>
+                <div class="edu-item">
+                    <h4>B.Tech in Computer Science and Engineering</h4>
+                    <p class="institution">Parul University, Vadodara, Gujarat</p>
+                    <p class="year">2022 – 2026 | CGPA: 7.11</p>
+                </div>
+                <div class="edu-item">
+                    <h4>Intermediate</h4>
+                    <p class="institution">Tirumala Junior College, Kataru, Andhra</p>
+                    <p class="year">2020 – 2022 | 81.5%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category glass-card">
+                <h3><i class="fa-solid fa-code"></i> Programming</h3>
+                <div class="tags">
+                    <span>C</span>
+                    <span>Python</span>
+                    <span>Java</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card">
+                <h3><i class="fa-solid fa-laptop-code"></i> Web Dev</h3>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Next.js</span>
+                    <span>MERN Stack</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card">
+                <h3><i class="fa-solid fa-brain"></i> AI & ML</h3>
+                <div class="tags">
+                    <span>Machine Learning</span>
+                    <span>Data-Driven Apps</span>
+                    <span>NLP</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card">
+                <h3><i class="fa-solid fa-database"></i> Databases & Tools</h3>
+                <div class="tags">
+                    <span>MongoDB</span>
+                    <span>Oracle</span>
+                    <span>GitHub</span>
+                    <span>VS Code</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card glass-card social-card">
+                <div class="card-icon"><i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-youtube"></i></div>
+                <h3>Instagram and YouTube Clone</h3>
+                <p>Designed and developed responsive, user-friendly clones of leading social and video platforms using
+                    Next.js and TypeScript. Implemented dynamic content rendering, UI components, and media display.</p>
+                <div class="tech-stack">
+                    <span>Next.js</span>
+                    <span>TypeScript</span>
+                </div>
+            </div>
+            <div class="project-card glass-card ml-card">
+                <div class="card-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <h3>House Price Prediction</h3>
+                <p>Built a predictive analytics model using Python, applying Linear Regression and Gradient Boosting to
+                    estimate housing prices. Optimized model accuracy through data preprocessing and feature
+                    engineering.</p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>ML</span>
+                </div>
+            </div>
+            <div class="project-card glass-card finance-card">
+                <div class="card-icon"><i class="fa-solid fa-coins"></i></div>
+                <h3>Funds Management App</h3>
+                <p>Developed a cross-platform financial tracking application using Python and KivyMD, enabling users to
+                    manage expenses, categorize spending, and visualize insights.</p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>KivyMD</span>
+                </div>
+            </div>
+            <div class="project-card glass-card book-card">
+                <div class="card-icon"><i class="fa-solid fa-book-open"></i></div>
+                <h3>Bookstore</h3>
+                <p>Implemented a full-stack online bookstore using the MERN Stack, including book listing, search
+                    functionality, cart system, and CRUD operations.</p>
+                <div class="tech-stack">
+                    <span>MERN</span>
+                    <span>MongoDB</span>
+                </div>
+            </div>
+            <div class="project-card glass-card ai-card">
+                <div class="card-icon"><i class="fa-solid fa-file-pdf"></i> <i class="fa-solid fa-robot"></i></div>
+                <h3>AI-Powered PDF Summarizer</h3>
+                <p>Created a Python-based intelligent summarization tool to help users extract key insights from large
+                    PDF documents using NLP techniques.</p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>NLP</span>
+                </div>
+            </div>
+
+            <div class="project-card glass-card number-card">
+                <div class="card-icon"><i class="fa-solid fa-dice"></i></div>
+                <h3>Number Guessing Game</h3>
+                <p>Developed an interactive console-based Number Guessing Game that generates random numbers and
+                    evaluates
+                    user input, implementing input validation and dynamic attempt tracking.</p>
+                <div class="tech-stack">
+                    <span>C++</span>
+                    <span>Logic</span>
+                </div>
+            </div>
+            <div class="project-card glass-card flames-card">
+                <div class="card-icon"><i class="fa-solid fa-heart"></i> <i class="fa-solid fa-fire"></i></div>
+                <h3>FLAMES Game</h3>
+                <p>Built a console-based FLAMES compatibility calculator that processes name inputs and applies the
+                    FLAMES
+                    algorithm to determine relationship outcomes. Optimized logic for O(n) complexity.</p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>Algorithms</span>
+                </div>
+            </div>
+            <div class="project-card glass-card castle-card">
+                <div class="card-icon"><i class="fa-brands fa-fort-awesome"></i></div>
+                <h3>Castle Adventure Game</h3>
+                <p>Designed a text-based Castle Adventure Game using decision-based logic, enabling players to navigate
+                    multiple story paths, branching conditions, and multiple endings.</p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>Game Dev</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section">
+        <h2 class="section-title">Certifications</h2>
+        <div class="cert-grid">
+            <div class="cert-card glass-card">
+                <div class="cert-header">
+                    <h4>Introduction to C Programming</h4>
+                    <i class="fa-solid fa-qrcode cert-qr"></i>
+                </div>
+                <p class="cert-issuer">LearnTube.ai, 2022</p>
+                <p class="cert-id">ID: C -3942022247527</p>
+            </div>
+            <div class="cert-card glass-card">
+                <div class="cert-header">
+                    <h4>Database and SQL</h4>
+                    <i class="fa-solid fa-qrcode cert-qr"></i>
+                </div>
+                <p class="cert-issuer">Infosys Springboard, 2023</p>
+                <p class="cert-id">Issued: Sep 8, 2023</p>
+            </div>
+            <div class="cert-card glass-card">
+                <div class="cert-header">
+                    <h4>A Masterclass for JavaScript</h4>
+                </div>
+                <p class="cert-issuer">Parul University, 2023</p>
+                <p class="cert-id">Workshop: July 27-28, 2023</p>
+            </div>
+            <div class="cert-card glass-card">
+                <div class="cert-header">
+                    <h4>Volunteer - Fun Fest 2022-23</h4>
+                </div>
+                <p class="cert-issuer">Parul University, 2023</p>
+            </div>
+            <div class="cert-card glass-card">
+                <div class="cert-header">
+                    <h4>Python Programming for Beginners</h4>
+                    <i class="fa-solid fa-qrcode cert-qr"></i>
+                </div>
+                <p class="cert-issuer">Udemy, 2025</p>
+                <p class="cert-id">Cert: UC-3e53ecce-cd5a-4e01-a8eb-f4fcd9b79956</p>
+            </div>
+            <div class="cert-card glass-card">
+                <div class="cert-header">
+                    <h4>Mastering HTML5 and CSS3</h4>
+                    <i class="fa-solid fa-qrcode cert-qr"></i>
+                </div>
+                <p class="cert-issuer">Udemy, 2025</p>
+                <p class="cert-id">Cert: UC-19dc67d8-2f55-400e-a715-7531c6e49ee7</p>
+            </div>
+            <div class="cert-card glass-card">
+                <div class="cert-header">
+                    <h4>AI for Beginners</h4>
+                    <i class="fa-solid fa-qrcode cert-qr"></i>
+                </div>
+                <p class="cert-issuer">HP LIFE, 2025</p>
+                <p class="cert-id">Serial: c6f5750c-e707-4200-b5de-ef23a1740b08</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container glass-card">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:maddukurisaiabhiram@gmail.com">maddukurisaiabhiram@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+919392892744">+91 93928 92744</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/abhirammaddukuri" target="_blank">github.com/abhirammaddukuri</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/sai-abhiram-maddukuri-752648249/" target="_blank">LinkedIn</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-code"></i>
+                    <a href="https://leetcode.com/abhiram0759" target="_blank">LeetCode</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sai Abhiram Maddukuri. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
